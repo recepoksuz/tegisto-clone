@@ -7,6 +7,9 @@ body{
 .header-padding{
     padding: 0px 160px;
     background-image: linear-gradient(to right,#1E1E30, #201E31);
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
 .header-right{
@@ -137,6 +140,7 @@ body{
 
 .content2{
   margin-top: 96px;
+
 }
 
 .content2-in{
@@ -251,6 +255,11 @@ body{
   color: #787783;;
 }
 
+.trusted-base{
+  background-color: #121227; 
+  padding-bottom: 96px;
+}
+
 .footer{
   background-color: #1D1D2D;
   height: 400px;
@@ -292,5 +301,123 @@ body{
   height: 88px;
   display: flex;
   align-items: center;
+
+}
+
+.header-responsive{
+  padding: 0px 120px;
+}
+
+.responsive-header-mobile{
+  display: none;
+}
+
+.content{
+  margin-top: 96px;
+}
+@media screen and (max-width: 991px){ /* TABLET GÖRÜNÜMÜ*/
+
+  .header-responsive-tablet{
+    padding: 0px 20px;
+  }
+
+  .content1-in, .content2-in, .content4-in{
+    flex-direction: column-reverse;
+
+  }
+
+  .content{
+    margin-top: 32px;
+  }
+
+  .content3-in{
+    flex-direction: column;
+  }
+
+  .content4 img{
+    margin-bottom: 32px;
+  }
+
+  .horizontal-line{
+    margin-bottom: 32px;
+  }
+
+  
+}
+
+@media screen and (max-width: 768px){ /* MOBİL GÖRÜMÜM */
+
+    .header{
+      display: none;
+    }
+
+    .responsive-header-mobile{
+      position: sticky;
+      top: 0;
+      padding: 0 3%;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      z-index: 6;
+    }
+
+     .mobile-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .mobile-header i{
+      color: white;
+    }
+
+    .mobile-launch-header{
+      background-color: #E9B000;
+      display: flex;
+      border-radius: 20px;
+      padding: 5%;
+      margin: 0px 10px;
+      height: 30px;
+      width: 90px;
+      font-size: small;
+      text-decoration: none;
+      color: black;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mobile-launch-header:hover{
+      text-decoration: none;
+      transition: 0.4s;
+    }
+    
+    .header-responsive-links{
+      display: flex;
+      justify-content: center;
+    }
+
+    .start-tegisto{
+      min-width: 100%;
+    }
+
+    .start-tegisto :nth-child(1){
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .start-tegisto-gradient{
+      display: none;
+    }
+
+    .trusted-base{
+      padding-bottom: 0px;
+    }
+
+    .start-tegisto h3{
+      text-align: center;
+    }
+
 
 }

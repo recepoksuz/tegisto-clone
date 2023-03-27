@@ -16,10 +16,12 @@
 
 <body>
 
-    <div class="header" style="border-bottom: 3px ;">
-        <div class="row header-padding align-items-center" style="height:100px; width: 100%;">
-            <div class="col-6"><img src="assets/image/tegisto-logo.svg" alt=""></div>
-            <div class="col-6 justify-content-end header-right align-items-center">
+    <div class="headers">
+        <div class=" header" style="border-bottom: 3px ;">
+        <div class="row header-padding header-responsive-tablet align-items-center"
+            style="height:100px; width: 100%; display: flex; justify-content: space-between;">
+            <div class=""><img src="assets/image/tegisto-logo.svg" alt=""></div>
+            <div class=" justify-content-end header-right align-items-center">
                 <div class="header-right-text" style="padding-right: 20px;">
                     <a href="https://medium.com/@tegisto_io" target="_blank" class="pr-3">
                         <i class=" fa-regular fa-file-lines"></i>
@@ -43,7 +45,28 @@
         <div class="header-bottom" style="overflow: hidden;">.</div>
     </div>
 
-    <div class="container content justify-content-center" style="margin-top: 96px;">
+    <div class="responsive-header-mobile">
+        <div class="mobile-header" style="padding: 3% 0; ">
+            <div class="header-responsive-mobile-logo">
+                <img src="assets/image/tegisto-logo-icon-mini.svg" alt="">
+            </div>
+            <div class="header-responsive-links">
+                <a href="https://medium.com/@tegisto_io" target="_blank" class="pr-3">
+                    <i class=" fa-regular fa-file-lines"></i>
+                </a>
+                <a href="https://t.me/tegisto_io" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a class="mobile-launch-header" href="https://tegisto.io/app/launchpad">Launch app</a>
+            </div>
+        </div>
+        <div class="header-bottom" style="overflow: hidden;">.</div>
+    </div>
+
+
+
+
+    <div class="container content justify-content-center">
         <div class="content1">
             <div class="content1-in">
                 <div class="content1-title row-6" style="max-width: 500px;">
@@ -59,7 +82,8 @@
                     </div>
                     <div class="content1-buttons row" style="margin-top: 48px;">
                         <span class="launch-btn"><a href="https://tegisto.io/app"></a></span>
-                        <a href="#" class="learn-more-btn" style="background-color: none;"><span class=""> Learn More
+                        <a href="#" class="learn-more-btn" style="background-color: none;"><span class=""> Learn
+                                More
                             </span></a>
                     </div>
                 </div>
@@ -105,9 +129,12 @@
                         <span>Company Project tokenization</span>
                     </div>
                     <div class="content3-text mt-3">
-                        <span>Tegisto is cutting edge and unique in terms of a DeFi platform as it is possible to invest
-                            in tokens of companies and play a role in the growth of a product and services in its early
-                            stages. <br><br> Companies with products or services related to blockchain technologies will
+                        <span>Tegisto is cutting edge and unique in terms of a DeFi platform as it is possible to
+                            invest
+                            in tokens of companies and play a role in the growth of a product and services in its
+                            early
+                            stages. <br><br> Companies with products or services related to blockchain technologies
+                            will
                             be tokenized and users will have a great opportunity in investing in these deliverables
                             pre-launch!</span>
                         <br> <br>
@@ -132,26 +159,27 @@
                             but not limited to gaming, art and sports.
                         </span>
                     </div>
-                    <div class="content4-buttons row" style="margin-top: 24px;">
+                    <div class="content4-buttons row-6" style="margin-top: 24px;">
                         <span class="launch-btn"><a href="https://tegisto.io/app"></a></span>
                     </div>
                 </div>
                 <div class="content4-img row-6">
-                    <img src="assets/image/nft-marketplace-image.svg" style="height: 600px;">
+                    <img src="assets/image/nft-marketplace-image.svg" style="height: 500px;">
                 </div>
             </div>
         </div>
     </div>
 
     <div class="mt-5 trusted-base" style="background-color: #121227; padding-bottom: 96px;">
-        <div class="container">
-            <div class="trusted-base-title-and-discription row justify-content-center" style="padding: 64px 0;">
+        <div class="container trusted-base-container">
+            <div class="trusted-base-title-and-discription row justify-content-center" style="padding: 64px 16px;">
                 <div class="trusted-base-title content2-title1 ">Your trusted crypto exchange</div>
-                <div class="content2-text">Tegisto is safe, personalized and unique with its cutting edge technology.
+                <div class="content2-text">Tegisto is safe, personalized and unique with its cutting edge
+                    technology.
                 </div>
             </div>
             <div class="row align-items-center justify-content-center pb-5">
-                <div class="trusted-base-in row-6 my-4 align-items-center " style="margin-right: 100px;">
+                <div class="trusted-base-in row-6 my-4 align-items-center " style="margin-right: 24px;">
                     <div class="trusted-discription">
                         <div class="row">
                             <div class="row align-items-start">
@@ -175,7 +203,8 @@
                                 <br>
                                 <div class="trusted-base-title" style="max-width: 305px;">
                                     <h5 style="color:white"> Personalised </h5>
-                                    <span style="color: #706F7C; font-size: medium;"> Advanced access can help restrict
+                                    <span style="color: #706F7C; font-size: medium;"> Advanced access can help
+                                        restrict
                                         devices that can access your account and provide you ease of mind. </span>
                                 </div>
                             </div>
@@ -188,7 +217,8 @@
                                 <br>
                                 <div class="trusted-base-title" style="max-width: 305px;">
                                     <h5 style="color:white"> Unique </h5>
-                                    <span style="color: #706F7C; font-size: medium;"> Tegisto caters to all the needs of
+                                    <span style="color: #706F7C; font-size: medium;"> Tegisto caters to all the
+                                        needs of
                                         a user and provides 360 degree solutions for projects and users. </span>
                                 </div>
                             </div>
@@ -200,34 +230,39 @@
                 </div>
             </div>
         </div>
-        <div class="container justify-content-center start-tegisto"
+        <div class="container start-tegisto"
             style="background-color: #281F62; border-radius: 10px; height: 272px; ">
             <div class="row">
-                <div class="col">
+                <div class="col-6 justify-content-center" >
                     <h3> Start an easy, safe and successful trading journey on Tegisto</h3>
                     <p>First step for your limitless future</p>
                 </div>
-                <div class="col start-tegisto-right">
-                    <img class="position-absolute row" src="assets/image/Ornament-effect.svg">
-                    <span class="launch-btn row pl-5"><a href="https://tegisto.io/app/launchpad"></a></span>
+                <div class="col-6 start-tegisto-right">
+                    <img class="position-absolute row start-tegisto-gradient" src="assets/image/Ornament-effect.svg">
+                    <span class="launch-btn row"><a href="https://tegisto.io/app/launchpad"></a></span>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer">
-        <div class="container" style="padding-top: 96px;">
+        <div class="container footer-container" style="padding-top: 96px;">
             <div class="horizontal-line"></div>
             <div class="row justify-content-center">
                 <div class="col">
                     <div class="footer-title">Tegisto App</div>
-                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://tegisto.io/app/trade/swap">Swap</a></div>
-                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://tegisto.io/app/farming">Farming</a></div>
-                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://tegisto.io/app/trade/swap">Trade</a></div>
-                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://tegisto.io/app/launchpad">Launchpad</a></div>
+                    <div class="footer-links" style="padding-bottom: 10px;"><a
+                            href="https://tegisto.io/app/trade/swap">Swap</a></div>
+                    <div class="footer-links" style="padding-bottom: 10px;"><a
+                            href="https://tegisto.io/app/farming">Farming</a></div>
+                    <div class="footer-links" style="padding-bottom: 10px;"><a
+                            href="https://tegisto.io/app/trade/swap">Trade</a></div>
+                    <div class="footer-links" style="padding-bottom: 10px;"><a
+                            href="https://tegisto.io/app/launchpad">Launchpad</a></div>
                 </div>
                 <div class="col">
                     <div class="footer-title">Developer</div>
-                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://github.com/tegisto" target="_blank">Github</a></div>
+                    <div class="footer-links" style="padding-bottom: 10px;"><a href="https://github.com/tegisto"
+                            target="_blank">Github</a></div>
                 </div>
                 <div class="col">
                     <div class="footer-title">Contact Us</div>
@@ -246,7 +281,7 @@
     <div class="footer-buttom">
         <div class="container">
             <div class="row footer-buttom-container align-items-center">
-                <div class="col" ><img src="assets/image/tegisto-logo.svg" ></div>
+                <div class="col"><img src="assets/image/tegisto-logo.svg"></div>
                 <div class="col" style="color: #6F6F7A"> Copyright © 2022 Tegisto.io </div>
                 <div class="col" style="color: #C4C4C9;">Privacy • Term & Condition</div>
             </div>
