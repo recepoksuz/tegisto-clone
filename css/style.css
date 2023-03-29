@@ -314,6 +314,7 @@ body{
 
 .content{
   margin-top: 96px;
+  max-width: 100%;
 }
 @media screen and (max-width: 991px){ /* TABLET GÖRÜNÜMÜ*/
 
@@ -415,8 +416,9 @@ body{
       padding-bottom: 0px;
     }
 
-    .start-tegisto h3{
+    .start-tegisto h3,.start-tegisto p{
       text-align: center;
+      
     }
 
 
