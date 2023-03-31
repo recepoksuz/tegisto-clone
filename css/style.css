@@ -421,5 +421,20 @@ body{
       
     }
 
+    .content1-img img{
+      height: 20px;
+    }
+
+    .content1-title1, .content1-title2, .content2-title1, .content3-title1, .content4-title1{
+      font-size: 34px;
+      line-height: normal;
+    }
+
+    .start-tegisto-right img, .content1-img img, .content2-img img, .content3-img img, .content4-img img{
+      
+    }
+
+    
+
 
 }
