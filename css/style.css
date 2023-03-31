@@ -431,9 +431,12 @@ body{
     }
 
     .start-tegisto-right img, .content1-img img, .content2-img img, .content3-img img, .content4-img img{
-      
+      max-width: 350px;
     }
 
+    .trusted-base-in{
+      margin-right: 0px;
+    }
     
 
 
